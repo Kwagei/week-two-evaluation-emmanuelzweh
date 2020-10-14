@@ -1,0 +1,191 @@
+
+/* All pages header styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+#page-heading {
+    float: left;
+    color: white;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+header nav {
+    float: right;
+    font-size: 20px;
+    margin: 10px 25px 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: orange;
+    border-bottom: 1px solid white;
+}
+
+/* Home page styling */
+
+#intro {
+    color: orange;
+    text-align: center;
+    height: 400px;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+#center-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#home-profile-img {
+    width: 400px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+#projects {
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+#projects-heading {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    padding-top: 100px;
+}
+
+#project-img {
+    width: 300px;
+    height: 250px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+    /* About page styling */
+
+#about-page-heading {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0 30px 0;
+    text-transform: uppercase;
+}
+
+#about-profile-img {
+    width: 400px;
+    height: 350px;
+    float: left;
+    margin: 0 10px 10px 0;
+    border-radius: 50%;
+}
+
+.about-content {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 0 20px 0 10px;
+    font-size: 18px;
+}
+
+/* Contact page styling */
+
+#contact-main-content{
+    display: flex;
+    margin-top: 20px;
+}
+
+#contact-form-article {
+    width: 60%;
+    height: auto;
+    background: gray;
+    padding: 20px 0 20px 0;
+}
+
+#form-heading {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-left: 70px;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#message {
+    font-size: 18px;
+    margin-left: 70px;
+}
+
+textarea {
+    margin-left: 70px;
+}
+
+#submit {
+    width: 100px;
+    background: blue;
+    margin-left: 70px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+}
+
+#contact-info {
+    background: lavenderblush;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+#contact-info h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+footer {
+    background: black;
+    height: auto;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+
+
+
+
