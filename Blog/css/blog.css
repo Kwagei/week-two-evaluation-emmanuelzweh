@@ -1,0 +1,143 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;;
+}
+
+header {
+    background: orange;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    padding-bottom: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:  5px;
+    letter-spacing: 3px;
+}
+
+/* Introduction styling */
+
+#introduction #intro-heading {
+    text-align: center;
+    padding: 150px;
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+/* All link styling */
+
+a {
+    text-decoration: none;
+}
+
+/* All articles styling */
+
+.blog-section-heading {
+    padding: 10px 0 10px 0;
+    text-transform: capitalize;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+article p {
+    font-size: 18px;
+    margin: 15px 30px 0 30px;
+    letter-spacing: 3px;
+}
+
+.blog-title {
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+figure {
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+video {
+    margin-left: 400px;
+}
+
+audio {
+    margin-left: 30px;
+}
+
+/* notisfication styling */
+
+#form-heading {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 40px 0 40px 0;
+    padding-top: 40px;
+}
+
+form {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: gray;
+}
+
+label {
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+#submit {
+    width: 30%;
+    margin-left: 70px;
+    color: tomato;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* page-footer styling */
+
+#page-footer {
+    background: orange;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    margin-top: 50px;
+    
+}
