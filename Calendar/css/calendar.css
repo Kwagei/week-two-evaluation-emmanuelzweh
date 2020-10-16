@@ -1,0 +1,31 @@
+
+
+table {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    background: goldenrod;
+    margin-top: 50px;
+
+}
+
+table, th, td {
+    padding: 20px;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+thead {
+    /* background: lightblue; */
+    font-size: 30px;
+}
+
+tbody {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+tr:hover {
+    background: lightgray;
+}
